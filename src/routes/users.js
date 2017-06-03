@@ -1,5 +1,6 @@
-var express = require('express');
-var router = express.Router();
+'use strict';
+window.express = require('express');
+window.router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
